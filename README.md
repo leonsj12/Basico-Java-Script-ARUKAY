@@ -1,16 +1,20 @@
 <div align="center">
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" 
-     alt="JavaScript Logo" 
-     width="160"/>
+     width="150"/>
 
 <br><br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=34&duration=2500&pause=1000&color=F7DF1E&background=0D1117&center=true&vCenter=true&width=900&lines=Sesión+1+–+Introducción+a+JavaScript" />
+<!-- Parte blanca -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2500&pause=1000&color=FFFFFF&background=0D1117&center=true&vCenter=true&width=600&lines=Sesión+1+–+Introducción+a" />
+
+<!-- JavaScript en amarillo -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2500&pause=1000&color=F7DF1E&background=0D1117&center=true&vCenter=true&width=400&lines=JavaScript" />
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2500&pause=1000&color=58A6FF&background=0D1117&center=true&vCenter=true&width=300&lines=ARUKAY" />
+<!-- ARUKAY azul -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=2500&pause=1000&color=58A6FF&background=0D1117&center=true&vCenter=true&width=250&lines=ARUKAY" />
 
 </div>
 
