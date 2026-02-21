@@ -1,11 +1,16 @@
 <div align="center">
 
-<h1>
-  <span style="color:#F7DF1E;">JavaScript</span> – 
-  <span style="color:#2F80ED;">Módulo Básico</span> 
-  <span style="color:#555;">(Arukay)</span>
-</h1>
+<!-- Título animado en amarillo -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=38&duration=3000&pause=1000&color=F7DF1E&center=true&vCenter=true&width=800&lines=JavaScript+–+Módulo+Básico" />
 
+<!-- Subtítulo en azul -->
+<h2 style="color:#2F80ED;">
+  (Arukay)
+</h2>
+
+<br>
+
+<!-- Logo JavaScript -->
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" 
      alt="JavaScript Logo" 
      width="180"/>
