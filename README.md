@@ -1,20 +1,22 @@
 <div align="center">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" 
-     width="150"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width="150"/>
 
 <br><br>
 
-<!-- Parte blanca -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2500&pause=1000&color=FFFFFF&background=0D1117&center=true&vCenter=true&width=600&lines=Sesión+1+–+Introducción+a" />
+<!-- MODO OSCURO -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" 
+    srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2500&pause=1000&color=FFFFFF&center=true&vCenter=true&width=700&lines=Sesión+1+–+Introducción+a" />
+  <img 
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2500&pause=1000&color=000000&center=true&vCenter=true&width=700&lines=Sesión+1+–+Introducción+a" />
+</picture>
 
-<!-- JavaScript en amarillo -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2500&pause=1000&color=F7DF1E&background=0D1117&center=true&vCenter=true&width=400&lines=JavaScript" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2500&pause=1000&color=F7DF1E&center=true&vCenter=true&width=400&lines=JavaScript" />
 
 <br>
 
-<!-- ARUKAY azul -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=2500&pause=1000&color=58A6FF&background=0D1117&center=true&vCenter=true&width=250&lines=ARUKAY" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=2500&pause=1000&color=2F80ED&center=true&vCenter=true&width=250&lines=ARUKAY" />
 
 </div>
 
