@@ -1,21 +1,18 @@
 <div align="center">
 
-<!-- Logo arriba -->
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" 
      alt="JavaScript Logo" 
      width="160"/>
 
 <br><br>
 
-<!-- Título animado completo en amarillo -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=34&duration=2500&pause=1000&color=F7DF1E&center=true&vCenter=true&width=900&lines=Sesión+1+–+Introducción+a+JavaScript" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=34&duration=2500&pause=1000&color=F7DF1E&background=0D1117&center=true&vCenter=true&width=900&lines=Sesión+1+–+Introducción+a+JavaScript" />
 
 <br>
 
-<!-- ARUKAY animado en azul -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=2500&pause=1000&color=2F80ED&center=true&vCenter=true&width=300&lines=ARUKAY" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2500&pause=1000&color=58A6FF&background=0D1117&center=true&vCenter=true&width=300&lines=ARUKAY" />
 
-</div>>
+</div>
 
 
 **Descripción general**
