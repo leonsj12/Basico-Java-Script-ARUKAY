@@ -1,6 +1,6 @@
 # JavaScript – Módulo Básico (Arukay)
 
-## Descripción General
+## Descripción general
 
 Este repositorio documenta mi proceso de aprendizaje del Módulo Básico de JavaScript del programa de Arukay.
 
@@ -8,9 +8,8 @@ El módulo está compuesto por 15 sesiones progresivas en las que desarrollo hab
 
 A lo largo del curso trabajo desde la configuración del entorno de desarrollo hasta la creación de pequeños programas funcionales aplicados a situaciones reales.
 
----
 
-## Objetivo del Módulo
+ **Objetivo del módulo**
 
 El propósito de este módulo es:
 
@@ -20,7 +19,6 @@ El propósito de este módulo es:
 - Aplicar la lógica de programación en ejercicios prácticos.
 - Desarrollar una base sólida para temas más avanzados.
 
----
 
 # Índice de Sesiones
 
