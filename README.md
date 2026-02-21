@@ -4,17 +4,19 @@
 
 <br><br>
 
-<!-- Título animado completo en amarillo -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2500&pause=1000&color=F7DF1E&center=true&vCenter=true&width=900&lines=Sesión+1+–+Introducción+a+JavaScript" />
+<!-- Parte en color visible en ambos modos -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2500&pause=1000&color=C9D1D9&center=true&vCenter=true&width=650&lines=Sesión+1+–+Introducción+a" />
+
+<!-- JavaScript en amarillo -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2500&pause=1000&color=F7DF1E&center=true&vCenter=true&width=350&lines=JavaScript" />
 
 <br>
 
-<!-- Subtítulo con colores reales -->
-<h3>
-  <span style="color:#2F80ED;">ARUKAY</span>
-</h3>
+<!-- ARUKAY azul -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=2500&pause=1000&color=2F80ED&center=true&vCenter=true&width=250&lines=ARUKAY" />
 
 </div>
+
 
 **Descripción general**
 
