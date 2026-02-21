@@ -1,4 +1,16 @@
-# JavaScript – Módulo Básico (Arukay)
+<div align="center">
+
+<h1>
+  <span style="color:#F7DF1E;">JavaScript</span> – 
+  <span style="color:#2F80ED;">Módulo Básico</span> 
+  <span style="color:#555;">(Arukay)</span>
+</h1>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" 
+     alt="JavaScript Logo" 
+     width="180"/>
+
+</div>
 
 **Descripción general**
 
@@ -38,87 +50,3 @@ El propósito de este módulo es:
 14. [Sesión 14 – ](#sesión-14--)
 15. [Sesión 15 – ](#sesión-15--)
 
----
-
-# Sesión 1 – Introducción a JavaScript
-
-Duración: 1 hora 20 minutos  
-Nivel: Uno  
-
-## Descripción
-
-En esta primera sesión inicié mi camino en JavaScript aprendiendo a configurar el entorno de desarrollo y a utilizar un editor de código para escribir y ejecutar programas.
-
-## Objetivos de la sesión
-
-Al finalizar esta sesión fui capaz de:
-
-- Manipular el entorno de desarrollo.
-- Escribir y ejecutar código JavaScript.
-- Utilizar herramientas en la nube.
-- Aplicar ejemplos prácticos como mostrar datos personales en consola.
-
-## Temas trabajados
-
-- Configuración del entorno.
-- Uso del editor de código.
-- Escritura de código básico.
-- Impresión de mensajes con `console.log()`.
-
----
-
-# Sesión 2 – 
-
-_(En construcción)_
-
-# Sesión 3 – 
-
-_(En construcción)_
-
-# Sesión 4 – 
-
-_(En construcción)_
-
-# Sesión 5 – 
-
-_(En construcción)_
-
-# Sesión 6 – 
-
-_(En construcción)_
-
-# Sesión 7 – 
-
-_(En construcción)_
-
-# Sesión 8 – 
-
-_(En construcción)_
-
-# Sesión 9 – 
-
-_(En construcción)_
-
-# Sesión 10 – 
-
-_(En construcción)_
-
-# Sesión 11 – 
-
-_(En construcción)_
-
-# Sesión 12 – 
-
-_(En construcción)_
-
-# Sesión 13 – 
-
-_(En construcción)_
-
-# Sesión 14 – 
-
-_(En construcción)_
-
-# Sesión 15 – 
-
-_(En construcción)_
