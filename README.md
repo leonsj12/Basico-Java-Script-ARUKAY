@@ -12,6 +12,7 @@
 
 </div>
 
+
 **Descripción general**
 
 Este repositorio documenta mi proceso de aprendizaje del Módulo Básico de JavaScript del programa de Arukay.
