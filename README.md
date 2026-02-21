@@ -1,16 +1,15 @@
 <div align="center">
 
-<!-- Título animado en amarillo -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=38&duration=3000&pause=1000&color=F7DF1E&center=true&vCenter=true&width=800&lines=JavaScript+–+Módulo+Básico" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=38&duration=2500&pause=1000&color=F7DF1E&center=true&vCenter=true&width=400&lines=JavaScript" />
 
-<!-- Subtítulo en azul -->
-<h2 style="color:#2F80ED;">
-  (Arukay)
-</h2>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=38&duration=2500&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&lines=–+Módulo+Básico" />
 
 <br>
 
-<!-- Logo JavaScript -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=34&duration=2500&pause=1000&color=2F80ED&center=true&vCenter=true&width=300&lines=(Arukay)" />
+
+<br><br>
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" 
      alt="JavaScript Logo" 
      width="180"/>
