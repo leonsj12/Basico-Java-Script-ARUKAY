@@ -4,9 +4,6 @@
 
 <br><br>
 
-<!-- Parte en color visible en ambos modos -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2500&pause=1000&color=C9D1D9&center=true&vCenter=true&width=650&lines=Sesión+1+–+Introducción+a"/>
-
 <!-- JavaScript en amarillo -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2500&pause=1000&color=F7DF1E&center=true&vCenter=true&width=350&lines=JavaScript" />
 
