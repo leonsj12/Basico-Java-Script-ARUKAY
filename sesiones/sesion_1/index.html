@@ -1,48 +1,21 @@
 <!DOCTYPE html>
-<!-- Indica que usamos HTML5 -->
-
 <html lang="es">
-<!-- Define el idioma del documento -->
-
 <head>
     <meta charset="UTF-8">
-    <!-- Permite usar tildes y caracteres especiales -->
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Hace que el diseño sea adaptable a dispositivos móviles -->
-
-    <title>Calculadora de Turnos</title>
-
-    <!-- Conexión con el archivo CSS externo -->
-    <link rel="stylesheet" href="style.css">
+    <title>Mi hobby favorito</title>
 </head>
-
 <body>
 
-    <!-- Contenedor principal que agrupa todo -->
-    <div class="contenedor">
+    <h1>🎨 Mi hobby favorito</h1>
 
-        <h2>Calculadora de Turnos 🎢</h2>
+    <!-- Botón interactivo -->
+    <button onclick="mostrarHobby()">Mostrar mi hobby</button>
 
-        <!-- Campo para ingresar cantidad de personas -->
-        <input type="number" id="personas" placeholder="Cantidad de personas">
+    <!-- Lugar donde aparecerá la información -->
+    <div id="resultado"></div>
 
-        <!-- Campo para ingresar cupo por turno -->
-        <input type="number" id="cupo" placeholder="Cupo por turno">
-
-        <!-- Campo para ingresar veces que sube cada persona -->
-        <input type="number" id="veces" placeholder="Veces que sube cada persona">
-
-        <!-- Botón que ejecuta la función del JS -->
-        <button onclick="calcular()">Calcular</button>
-
-        <!-- Aquí se mostrará el resultado -->
-        <div id="resultado"></div>
-
-    </div>
-
-    <!-- Conexión con el archivo JavaScript externo -->
-    <script src="sesion_1.js"></script>
+    <!-- Conexion con el archivo JavaScript externo -->
+    <script src="app.js"></script>
 
 </body>
 </html>
