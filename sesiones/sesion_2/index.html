@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <!--
+    =====================================================
+    ARCHIVO HTML
+    =====================================================
+
+    HTML es el lenguaje que crea la estructura de la página web.
+
+    Piensa en HTML como el ESQUELETO del cuerpo humano.
+    Define:
+    - títulos
+    - botones
+    - textos
+    - contenedores
+
+    Pero HTML por sí solo NO puede tomar decisiones
+    ni hacer cálculos.
+
+    Para eso usamos JavaScript.
+    =====================================================
+    -->
+
+    <title>Sistema de notas</title>
+
+</head>
+<body>
+
+    <!--
+    Este es un título visible en la página
+    -->
+    <h1> Sistema de evaluación del estudiante</h1>
+
+
+    <!--
+    BOTÓN INTERACTIVO
+
+    onclick significa:
+
+    "Cuando el usuario haga clic,
+    ejecutar la función mostrarResultados()"
+
+    IMPORTANTE:
+    Esta función NO está en el HTML.
+    Está en el archivo script.js
+    -->
+    <button onclick="mostrarResultados()">
+        Mostrar resultados
+    </button>
+
+
+    <!--
+    CONTENEDOR DIV
+
+    Un DIV es una caja vacía.
+
+    JavaScript buscará esta caja usando su ID
+    y colocará el resultado aquí.
+
+    id="resultado"
+
+    ID significa: identificador único
+    -->
+    <div id="resultado"></div>
+
+
+
+    <!--
+    CONEXIÓN CON JAVASCRIPT
+
+    Esta línea conecta el HTML con el archivo app.js
+
+    El navegador lee esta línea y carga el archivo JavaScript.
+
+    A partir de ese momento, JavaScript puede controlar la página.
+
+    IMPORTANTE:
+    El archivo app.js debe estar en la misma carpeta.
+    -->
+    <script src="app.js"></script>
+
+
+</body>
+</html>
