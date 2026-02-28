@@ -38,7 +38,7 @@ El propósito de este módulo es:
 # Índice de Sesiones
 
 1. [Sesión 1 – Introducción a JavaScript](https://github.com/leonsj12/Basico-Java-Script-ARUKAY/tree/main/sesiones/sesion_1)
-2. [Sesión 2 – ](#sesión-2--)
+2. [Sesión 2 – ](https://github.com/leonsj12/Basico-Java-Script-ARUKAY/tree/main/sesiones/sesion_2)
 3. [Sesión 3 – ](#sesión-3--)
 4. [Sesión 4 – ](#sesión-4--)
 5. [Sesión 5 – ](#sesión-5--)
