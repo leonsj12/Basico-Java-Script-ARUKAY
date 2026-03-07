@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Título de la página -->
+    <title>Carrito de Compra</title>
+
+    <!-- Estilos básicos para organizar los paneles -->
+    <style>
+
+        /* Estilo general de la página */
+        body{
+            font-family: Arial;
+            margin: 40px;
+        }
+
+        /* Contenedor principal que tendrá los dos paneles */
+        .contenedor{
+            display: flex; /* coloca los paneles uno al lado del otro */
+            gap: 40px; /* espacio entre paneles */
+        }
+
+        /* Estilo de cada panel */
+        .panel{
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 320px;
+        }
+
+        /* Estilo para cada producto mostrado */
+        .producto{
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<!-- Título principal -->
+<h1>Carrito de Compras</h1>
+
+<!-- Contenedor general -->
+<div class="contenedor">
+
+    <!-- Panel donde se mostrarán los artículos -->
+    <div class="panel">
+
+        <h2>Lista de Artículos</h2>
+
+        <!-- Aquí JavaScript insertará los productos -->
+        <div id="lista-productos"></div>
+
+    </div>
+
+    <!-- Panel donde se mostrarán los totales -->
+    <div class="panel">
+
+        <h2>Resumen de compra</h2>
+
+        <!-- Total de la compra -->
+        <p id="total-compra"></p>
+
+        <!-- IVA calculado -->
+        <p id="iva"></p>
+
+        <!-- Total con IVA -->
+        <p id="total-con-iva"></p>
+
+    </div>
+
+</div>
+
+<!-- Conexión con el archivo JavaScript -->
+<script src="app.js"></script>
+
+</body>
+</html>
