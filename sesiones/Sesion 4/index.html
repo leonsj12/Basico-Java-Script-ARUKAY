@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Compra de tickets</title>
+</head>
+
+<body>
+
+<!-- BOTONES (1 y 2 del ejercicio) -->
+<button onclick="agregarTickets(1)">1 ticket</button>
+<button onclick="agregarTickets(2)">2 tickets</button>
+<button onclick="agregarTickets(3)">3 tickets</button>
+
+<button onclick="mostrarTotal()">Mostrar Total</button>
+
+<br/><br/>
+
+<!-- PANEL (a del ejercicio) -->
+<div id="panelResultados">
+
+<b>Cantidad:</b> <span id="cantidad">0</span> <br/>
+
+<b>Total pago tickets:</b> $<span id="totalTickets">0</span> <br/>
+
+<b>Total descuento (<span id="numDescuentos">0</span>):</b> $<span id="totalDescuento">0</span> <br/>
+
+<b>Total pago:</b> $<span id="totalPago">0</span>
+
+</div>
+
+<!-- CONEXION CON JAVASCRIPT -->
+<script src="app.js"></script>
+
+</body>
+</html>
