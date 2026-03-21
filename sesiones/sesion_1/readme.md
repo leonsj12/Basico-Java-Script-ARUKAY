@@ -2,7 +2,7 @@
 
 Este proyecto es una introducción práctica al desarrollo web usando HTML, CSS y JavaScript. Su objetivo principal es aprender conceptos básicos de programación en JavaScript mediante una aplicación sencilla e interactiva.
 
----
+
 
 ## ¿Qué hace este proyecto?
 
@@ -14,7 +14,7 @@ La página muestra un botón que, al hacer clic, despliega información sobre un
 
 Esto permite entender cómo JavaScript puede interactuar con una página web.
 
----
+
 
 ## Conceptos aprendidos
 
@@ -31,7 +31,7 @@ let hobby = "Dibujar";
 let descripcion = "Me gusta dibujar porque es divertido y puedo crear lo que imagino.";
 ```
 
----
+
 
 ### 2. Arreglos (Arrays)
 
@@ -41,7 +41,7 @@ Un arreglo es una colección de datos. Aquí se usa para almacenar materiales:
 let materiales = ["Lápiz", "Cuaderno", "Borrador", "Colores", "Sacapuntas"];
 ```
 
----
+
 
 ### 3. Funciones
 
@@ -53,7 +53,7 @@ function mostrarHobby() {
 }
 ```
 
----
+
 
 ### 4. Eventos (onclick)
 
@@ -63,7 +63,7 @@ Se usa el evento `onclick` en HTML para ejecutar la función cuando el usuario h
 <button onclick="mostrarHobby()">Mostrar mi hobby</button>
 ```
 
----
+
 
 ### 5. Manipulación del DOM
 
@@ -75,7 +75,7 @@ document.getElementById("resultado").innerHTML = texto;
 
 Esto permite mostrar información dinámica en la web.
 
----
+
 
 ### 6. Estructuras de control (for)
 
@@ -87,7 +87,7 @@ for (let i = 0; i < materiales.length; i++) {
 }
 ```
 
----
+
 
 ## Estructura del proyecto
 
@@ -98,7 +98,7 @@ proyecto/
 │── app.js       → Lógica en JavaScript
 ```
 
----
+
 
 ## Tecnologías utilizadas
 
@@ -106,7 +106,6 @@ proyecto/
 - CSS → estilos  
 - JavaScript → interactividad  
 
----
 
 ## Posibles mejoras
 
@@ -117,7 +116,7 @@ Algunas ideas para seguir aprendiendo:
 - Agregar más hobbies dinámicos
 - Permitir que el usuario ingrese su propio hobby
 
----
+
 
 ## Conclusión
 
@@ -129,7 +128,7 @@ Este ejercicio demuestra cómo:
 
 Es una base sólida para comenzar a desarrollar aplicaciones más complejas.
 
----
+
 
 ## Autor
 
