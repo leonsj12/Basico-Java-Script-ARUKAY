@@ -4,7 +4,7 @@ Este proyecto es una introducción práctica al desarrollo web usando HTML, CSS 
 
 
 
-## ¿Qué hace este proyecto?
+**¿Qué hace este proyecto?**
 
 La página muestra un botón que, al hacer clic, despliega información sobre un hobby (en este caso, dibujar), incluyendo:
 
@@ -16,9 +16,9 @@ Esto permite entender cómo JavaScript puede interactuar con una página web.
 
 
 
-## Conceptos aprendidos
+**Conceptos aprendidos**
 
-### 1. Variables en JavaScript
+***1. Variables en JavaScript***
 
 Las variables permiten almacenar información. En este proyecto se usan para guardar:
 
@@ -33,7 +33,7 @@ let descripcion = "Me gusta dibujar porque es divertido y puedo crear lo que ima
 
 
 
-### 2. Arreglos (Arrays)
+***2. Arreglos (Arrays)***
 
 Un arreglo es una colección de datos. Aquí se usa para almacenar materiales:
 
@@ -43,7 +43,7 @@ let materiales = ["Lápiz", "Cuaderno", "Borrador", "Colores", "Sacapuntas"];
 
 
 
-### 3. Funciones
+***3. Funciones***
 
 Una función es un bloque de código que se ejecuta cuando se necesita.
 
@@ -55,7 +55,7 @@ function mostrarHobby() {
 
 
 
-### 4. Eventos (onclick)
+***4. Eventos (onclick)***
 
 Se usa el evento `onclick` en HTML para ejecutar la función cuando el usuario hace clic en un botón:
 
@@ -65,7 +65,7 @@ Se usa el evento `onclick` en HTML para ejecutar la función cuando el usuario h
 
 
 
-### 5. Manipulación del DOM
+***5. Manipulación del DOM***
 
 El DOM (Document Object Model) permite modificar el contenido de la página con JavaScript.
 
@@ -77,7 +77,7 @@ Esto permite mostrar información dinámica en la web.
 
 
 
-### 6. Estructuras de control (for)
+***6. Estructuras de control (for)***
 
 Se utiliza un ciclo `for` para recorrer el arreglo de materiales:
 
@@ -89,7 +89,7 @@ for (let i = 0; i < materiales.length; i++) {
 
 
 
-## Estructura del proyecto
+**Estructura del proyecto**
 
 ```
 proyecto/
@@ -100,14 +100,14 @@ proyecto/
 
 
 
-## Tecnologías utilizadas
+**Tecnologías utilizadas**
 
 - HTML → estructura  
 - CSS → estilos  
 - JavaScript → interactividad  
 
 
-## Posibles mejoras
+**Posibles mejoras**
 
 Algunas ideas para seguir aprendiendo:
 
@@ -118,7 +118,7 @@ Algunas ideas para seguir aprendiendo:
 
 
 
-## Conclusión
+**Conclusión**
 
 Este ejercicio demuestra cómo:
 
