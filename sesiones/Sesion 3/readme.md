@@ -46,9 +46,13 @@ Ejemplo:
 </div>
 ```
 
-***2. Arreglos de objetos***
+***2. Arreglos (Arrays)***
 
-Se utiliza un arreglo que contiene objetos. Cada objeto representa un producto.
+Un **arreglo** es una estructura de datos que permite guardar múltiples valores dentro de una sola variable.
+
+Sirve para organizar información relacionada.
+
+En este caso, se usa un arreglo de objetos para almacenar productos:
 
 ```javascript
 const productos = [
@@ -58,13 +62,29 @@ const productos = [
 ];
 ```
 
-Esto permite organizar mejor la información.
+Cada elemento del arreglo es un **objeto** con propiedades.
 
-***3. Funciones***
+***3. Objetos***
 
-Las funciones permiten dividir el programa en partes reutilizables.
+Un **objeto** es una estructura que permite agrupar información en forma de clave y valor.
 
-***Calcular total por producto***
+Ejemplo:
+
+```javascript
+{
+    nombre: "Laptop",
+    cantidad: 1,
+    valorUnitario: 2000000
+}
+```
+
+Esto representa un producto con sus características.
+
+***4. Funciones***
+
+Una **función** es un bloque de código que se puede reutilizar para realizar una tarea específica.
+
+Ejemplo:
 
 ```javascript
 function calcularTotalProducto(cantidad, valorUnitario){
@@ -72,25 +92,14 @@ function calcularTotalProducto(cantidad, valorUnitario){
 }
 ```
 
-***Calcular total de la compra***
+Las funciones ayudan a organizar el código y evitar repeticiones.
 
-```javascript
-function calcularTotalCompra(lista){
+***5. Parámetros y retorno***
 
-    let total = 0;
+- **Parámetros**: valores que recibe la función  
+- **return**: valor que la función devuelve  
 
-    lista.forEach(producto => {
-        total += calcularTotalProducto(
-            producto.cantidad,
-            producto.valorUnitario
-        );
-    });
-
-    return total;
-}
-```
-
-***Calcular IVA***
+Ejemplo:
 
 ```javascript
 function calcularIVA(total){
@@ -98,61 +107,65 @@ function calcularIVA(total){
 }
 ```
 
-***4. Recorrido de datos (forEach)***
+***6. Recorridos (forEach)***
 
-Se utiliza `forEach` para recorrer el arreglo de productos:
+El método `forEach` permite recorrer todos los elementos de un arreglo.
 
 ```javascript
 productos.forEach(producto => {
-    // operaciones con cada producto
+    console.log(producto.nombre);
 });
 ```
 
-Esto permite trabajar con cada elemento de forma sencilla.
+Sirve para ejecutar acciones con cada elemento.
 
-***5. Manipulación del DOM***
 
-JavaScript crea elementos dinámicamente y los inserta en el HTML.
+***7. Manipulación del DOM***
+
+El **DOM** es la representación de la página web en forma de objetos.
+
+JavaScript puede modificar el contenido usando:
 
 ```javascript
-let linea = document.createElement("div");
-linea.classList.add("producto");
-
-linea.innerHTML = `
-<strong>${producto.nombre}</strong><br>
-Cantidad: ${producto.cantidad}<br>
-Valor unitario: $${producto.valorUnitario}<br>
-Total producto: $${totalProducto}
-`;
-
-contenedor.appendChild(linea);
+document.getElementById("total-compra").innerHTML = "Total: $" + total;
 ```
 
-Esto permite mostrar los productos en pantalla sin escribirlos directamente en HTML.
+Esto permite actualizar la información en la página.
 
-**6. Mostrar resultados en pantalla**
+***8. Creación de elementos dinámicos***
 
-Se actualizan elementos del HTML usando `innerHTML`:
+JavaScript puede crear elementos HTML en tiempo real:
 
 ```javascript
-document.getElementById("total-compra").innerHTML =
-    "Total de la compra: $" + totalCompra;
+let div = document.createElement("div");
+div.innerHTML = "Producto";
+```
 
-document.getElementById("iva").innerHTML =
-    "IVA (19%): $" + iva;
+Esto permite generar contenido sin escribirlo directamente en HTML.
 
-document.getElementById("total-con-iva").innerHTML =
-    "Total con IVA: $" + totalConIVA;
+***9. Cálculos en JavaScript***
+
+Se realizan operaciones matemáticas como:
+
+- Multiplicación (cantidad * precio)  
+- Suma de totales  
+- Cálculo de impuestos  
+
+Ejemplo:
+
+```javascript
+let total = cantidad * valorUnitario;
 ```
 
 **Flujo del programa**
 
 1. Se define el arreglo de productos  
-2. Se muestran los productos en pantalla  
-3. Se calcula el total de la compra  
-4. Se calcula el IVA  
-5. Se calcula el total final  
-6. Se muestran los resultados en el HTML  
+2. Se recorren los productos  
+3. Se calcula el total por producto  
+4. Se muestran los productos en pantalla  
+5. Se calcula el total general  
+6. Se calcula el IVA  
+7. Se muestra el resumen en el HTML  
 
 **Estructura del proyecto**
 
@@ -162,44 +175,26 @@ proyecto/
 │── app.js       → Lógica en JavaScript
 ```
 
-**Estilos básicos (CSS interno)**
-
-Se utiliza CSS dentro del HTML para organizar la interfaz:
-
-```css
-.contenedor{
-    display: flex;
-    gap: 40px;
-}
-
-.panel{
-    border: 1px solid #ccc;
-    padding: 20px;
-    width: 320px;
-}
-```
-
-Esto permite mostrar los paneles uno al lado del otro.
-
 **Posibles mejoras**
 
-- Permitir agregar productos desde el usuario  
+- Permitir agregar productos dinámicamente  
 - Eliminar productos del carrito  
-- Formatear los números como moneda  
-- Usar eventos en lugar de ejecución automática  
-- Guardar datos en localStorage  
+- Formatear valores como moneda  
+- Usar eventos modernos (addEventListener)  
+- Guardar datos en el navegador  
 
 **Conclusión**
 
 Este ejercicio permite comprender:
 
-- Uso de arreglos de objetos  
-- Creación de funciones reutilizables  
-- Recorrido de datos con forEach  
-- Cálculos matemáticos en JavaScript  
-- Manipulación dinámica del DOM  
+- Qué es un arreglo y cómo usarlo  
+- Cómo funcionan los objetos en JavaScript  
+- Cómo crear y usar funciones  
+- Cómo recorrer datos con forEach  
+- Cómo manipular el DOM  
+- Cómo hacer cálculos dinámicos  
 
-Es un paso importante hacia el desarrollo de aplicaciones más complejas como tiendas en línea.
+Es una base fundamental para desarrollar aplicaciones web más avanzadas.
 
 **Autor**
 
