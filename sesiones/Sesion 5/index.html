@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Título de la página -->
+  <title>Sistema de Restaurante</title>
+</head>
+<body>
+
+  <!-- ============================= -->
+  <!-- TÍTULO PRINCIPAL -->
+  <!-- ============================= -->
+  <h1>Sistema de Restaurante</h1>
+
+  <!-- ============================= -->
+  <!-- FORMULARIO DE PEDIDOS -->
+  <!-- ============================= -->
+  <h2>Nuevo Pedido</h2>
+
+  <!-- Input para ingresar el nombre del cliente -->
+  <input type="text" id="nombre" placeholder="Nombre del cliente">
+
+  <h3>Menú</h3>
+
+  <!-- Inputs para cantidades de productos -->
+  <label>Perro Caliente ($15000):</label>
+  <input type="number" id="perro" value="0"><br><br>
+
+  <label>Hamburguesa ($20000):</label>
+  <input type="number" id="hamburguesa" value="0"><br><br>
+
+  <label>Gaseosa ($8000):</label>
+  <input type="number" id="gaseosa" value="0"><br><br>
+
+  <label>Agua ($1000):</label>
+  <input type="number" id="agua" value="0"><br><br>
+
+  <!-- Botón que llama la función para agregar pedido -->
+  <button onclick="agregarPedido()">Agregar Pedido</button>
+
+  <!-- Botón que muestra los totales -->
+  <button onclick="mostrarTotales()">Mostrar Totales</button>
+
+  <hr>
+
+  <!-- ============================= -->
+  <!-- PANEL DE TOTALES POR PRODUCTO -->
+  <!-- ============================= -->
+  <h2>Totales de productos vendidos</h2>
+
+  <p>Perros: <span id="totalPerros">0</span></p>
+  <p>Hamburguesas: <span id="totalHamburguesas">0</span></p>
+  <p>Gaseosas: <span id="totalGaseosas">0</span></p>
+  <p>Aguas: <span id="totalAguas">0</span></p>
+
+  <hr>
+
+  <!-- ============================= -->
+  <!-- LISTA DE PEDIDOS -->
+  <!-- ============================= -->
+  <h2>Lista de pedidos</h2>
+  <ul id="listaPedidos"></ul>
+
+  <hr>
+
+  <!-- ============================= -->
+  <!-- TOTAL GENERAL -->
+  <!-- ============================= -->
+  <h2>Total general a pagar</h2>
+  <p id="totalGeneral">$0</p>
+
+  <!-- Enlace al archivo JavaScript -->
+  <script src="app.js"></script>
+
+</body>
+</html>
