@@ -1,4 +1,4 @@
-# Proyecto: Sistema de Restaurante
+# Proyecto: Sistema de restaurante
 
 Este proyecto es una práctica de JavaScript que simula un sistema de pedidos en un restaurante. Permite ingresar órdenes de clientes, calcular totales y mostrar resultados en pantalla.
 
