@@ -34,7 +34,7 @@ let nombre = prompt("Ingrese su nombre:");
 
 ---
 
-*** 2. Variables ***
+***2. Variables***
 
 Las **variables** almacenan los datos ingresados por el usuario.
 
@@ -43,10 +43,7 @@ let marca = prompt("Ingrese la marca del celular:");
 ```
 
 Cada dato ingresado se guarda para luego usarlo.
-
----
-
-*** 3. Objetos ***
+***3. Objetos***
 
 Un **objeto** es una estructura que permite agrupar información en forma de clave y valor.
 
@@ -58,10 +55,7 @@ const celular = {
 ```
 
 Esto permite organizar los datos del usuario.
-
----
-
-*** 4. Objeto literal ***
+***4. Objeto literal***
 
 Es la forma más común de crear objetos:
 
@@ -74,10 +68,7 @@ const celular = {
   precio: precio
 };
 ```
-
----
-
-*** 5. Objeto en múltiples líneas ***
+***5. Objeto en múltiples líneas***
 
 Permite escribir el objeto de forma organizada:
 
@@ -90,10 +81,7 @@ const prenda = {
   marca: marcaPrenda
 };
 ```
-
----
-
-*** 6. Objeto con constructor ***
+***6. Objeto con constructor***
 
 Otra forma de crear objetos es usando `new Object()`:
 
@@ -109,7 +97,7 @@ persona.telefono = telefono;
 
 ---
 
-*** 7. Acceso a propiedades ***
+***7. Acceso a propiedades***
 
 Se puede acceder a los datos de dos formas:
 
@@ -124,10 +112,7 @@ celular.marca
 ```javascript
 celular["precio"]
 ```
-
----
-
-*** 8. Mostrar información en pantalla ***
+***8. Mostrar información en pantalla***
 
 Se utiliza `document.write()` para mostrar contenido en la página:
 
@@ -137,9 +122,7 @@ document.write("Marca: " + celular.marca + "<br>");
 
 Esto imprime directamente en el HTML.
 
----
-
-*** 9. Concatenación de texto ***
+***9. Concatenación de texto***
 
 Se usa el operador `+` para unir texto y variables:
 
