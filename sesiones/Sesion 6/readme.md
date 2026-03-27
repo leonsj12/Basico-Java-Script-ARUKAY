@@ -2,8 +2,6 @@
 
 Este proyecto es una práctica de JavaScript donde se utilizan objetos junto con la función `prompt()` para capturar datos ingresados por el usuario y mostrarlos en pantalla.
 
----
-
 **¿Qué hace este proyecto?**
 
 El sistema permite:
@@ -22,7 +20,7 @@ Se trabajan tres tipos de objetos:
 
 **Conceptos fundamentales**
 
-*** 1. ¿Qué es prompt()? ***
+***1. ¿Qué es prompt()?***
 
 La función `prompt()` permite solicitar información al usuario mediante una ventana emergente.
 
