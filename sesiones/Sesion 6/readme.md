@@ -15,9 +15,6 @@ Se trabajan tres tipos de objetos:
 - Objeto literal  
 - Objeto en múltiples líneas  
 - Objeto creado con constructor  
-
----
-
 **Conceptos fundamentales**
 
 ***1. ¿Qué es prompt()?***
@@ -31,9 +28,6 @@ let nombre = prompt("Ingrese su nombre:");
 - Muestra un cuadro de diálogo  
 - El usuario escribe un valor  
 - Ese valor se guarda en una variable  
-
----
-
 ***2. Variables***
 
 Las **variables** almacenan los datos ingresados por el usuario.
@@ -101,7 +95,7 @@ persona.telefono = telefono;
 
 Se puede acceder a los datos de dos formas:
 
-*** Notación de punto ***
+***Notación de punto***
 
 ```javascript
 celular.marca
@@ -129,9 +123,6 @@ Se usa el operador `+` para unir texto y variables:
 ```javascript
 "Marca: " + celular.marca
 ```
-
----
-
 **Flujo del programa**
 
 1. Se solicitan datos al usuario con prompt()  
@@ -139,9 +130,6 @@ Se usa el operador `+` para unir texto y variables:
 3. Se crean objetos con esos datos  
 4. Se accede a sus propiedades  
 5. Se muestran los resultados en pantalla  
-
----
-
 **Estructura del proyecto**
 
 ```
@@ -149,9 +137,6 @@ proyecto/
 │── index.html   → Estructura de la página
 │── app.js       → Lógica en JavaScript
 ```
-
----
-
 **Posibles mejoras**
 
 - Validar que los datos no estén vacíos  
@@ -159,9 +144,6 @@ proyecto/
 - Usar formularios en HTML en lugar de prompt  
 - Aplicar estilos con CSS  
 - Guardar los datos en un arreglo  
-
----
-
 **Conclusión**
 
 Este ejercicio permite comprender:
