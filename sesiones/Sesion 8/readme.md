@@ -132,7 +132,7 @@ Se usa `document.write()` para mostrar resultados:
 document.write("Mensaje");
 ```
 
-## Flujo del programa
+***Flujo del programa***
 
 ### Ejercicio 1
 
@@ -153,7 +153,7 @@ document.write("Mensaje");
 3. Se asigna un precio  
 4. Se muestra el resultado  
 
-## Estructura del proyecto
+**Estructura del proyecto**
 
 ```
 proyecto/
@@ -162,7 +162,7 @@ proyecto/
 ```
 
 
-## Posibles mejoras
+**Posibles mejoras**
 
 - Validar que el usuario ingrese datos correctos  
 - Mostrar resultados en HTML en lugar de document.write  
@@ -171,7 +171,7 @@ proyecto/
 - Mejorar la interfaz con CSS  
 
 
-## Conclusión
+**Conclusión**
 
 Este ejercicio permite comprender:
 
