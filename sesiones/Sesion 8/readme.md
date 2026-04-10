@@ -8,7 +8,7 @@ El sistema contiene tres ejercicios:
 2. Aplicación de descuentos según un color  
 3. Consulta de precios de frutas usando `switch`  
 
-## Conceptos fundamentales
+**Conceptos fundamentales**
 
 ### 1. prompt()
 
