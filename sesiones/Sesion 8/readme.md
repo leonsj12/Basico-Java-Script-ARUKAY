@@ -1,7 +1,7 @@
 # Proyecto: Estructuras Condicionales en JavaScript
 Este proyecto es una práctica de JavaScript enfocada en el uso de estructuras condicionales. Permite tomar decisiones basadas en datos ingresados por el usuario mediante `prompt()`.
 
-** ¿Qué hace este proyecto? **
+**¿Qué hace este proyecto?**
 El sistema contiene tres ejercicios:
 
 1. Validación de edad para ingresar a un lugar  
