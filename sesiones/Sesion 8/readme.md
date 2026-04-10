@@ -10,7 +10,7 @@ El sistema contiene tres ejercicios:
 
 **Conceptos fundamentales**
 
-### 1. prompt()
+*** 1. prompt() ***
 
 La función `prompt()` permite solicitar información al usuario.
 
